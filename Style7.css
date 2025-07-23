@@ -1,0 +1,75 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+background-color:burlywood ;
+    margin: 0;
+    padding: 2px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Dashboard {
+    max-width: 500px;
+    margin: 2rem;
+    padding: 2rem;
+    background-color: aqua;
+    border-radius: 30px;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover{
+    text-decoration:underline;
+    color: red;
+}
+
+a:active{
+    color: aqua;
+}
+
+h1 {
+    text-align: center;
+    font-style: oblique;
+    color: red;
+}
+
+h2{
+    text-align: center;
+    font-style: oblique;
+    color: yellowgreen;
+}
+ul {
+    list-style-type: square;
+    
+}
+
+li:nth-child(odd) {
+    font-style: oblique;
+    color: darkblue;
+}
+
+li:nth-child(even){
+    font-style: italic;
+    color:green;
+    text-decoration: underline;
+} 
+
+li::marker{
+color: black;
+font-family: 'Times New Roman', Times, serif;
+font-style: italic;
+}
+
+footer{
+    font-style: italic;
+    text-align: center;
+    color: red;
+}
