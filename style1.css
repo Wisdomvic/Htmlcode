@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto' sans-serif;
+    background-color: darkgoldenrod;
+    padding: 2px;
+    margin: 2px;
+}
+
+.block{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    color: azure;
+    margin: 0;
+padding: 2rem;
+}
+
+
+img{
+    float: right;
+    margin: 2px;
+    width: 200px;
+    display: inline-block;
+}
+section{
+    background-color: aqua;
+    border: 1px solid black;
+}
+
+h1{
+    margin: 0;
+    padding: 1px;
+    text-align: center;
+    line-height: 2rem;
+    color: blanchedalmond;
+}
+h2 {
+    text-align:center;
+    font-style: oblique;
+    line-height: 2rem;
+}
+
+h3{
+    text-align: center;
+    line-height: 2rem;
+    font-style: oblique;
+    text-transform: uppercase;
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+    cursor: pointer;
+    display: inline-block;
+    
+}
+
+a:visited{
+    color: purple;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: azure;
+}
+
+a:active{
+    color: red;
+}
+
+.Platform{
+    padding-left: 2px;
+}
+
+ul{
+    list-style-type: none;
+    text-align: center;
+}
