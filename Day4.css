@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    background-color: chartreuse;
+    padding: 1rem;
+}
+
+.Column{
+    columns: 3 40px;
+    column-rule: 3px solid #333;
+    margin: 0px;
+    padding: 1rem
+}
+
+.Column ul{
+    padding-left: 1rem;
+    break-inside: avoid;
+}
+
+.Column ol{
+    padding-left: 1rem;
+    break-inside: avoid;
+}
+
+.Column h1 ,h2 ,h3{
+    margin: 0 0 0.5rem 0;
+    background-color: #333;
+    color: aliceblue;
+    break-inside: avoid;
+}
+
+.Quote{
+    column-span: all;
+    padding: 2rem 1rem;
+    font-size: larger;
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+    display: block;
+    background-color: #222;
+    color: #fff;
+}
+
+.nowrap{
+    white-space: nowrap;
+}
+
+a{
+    color:blue;
+    cursor: pointer;
+    text-decoration: none;
+    font-style: italic;
+    line-height: 1.5rem;
+}
+
+a:visited{
+    color: purple;
+}
+
+a:hover{
+    color:white;
+    text-decoration: underline;
+}
+
+a:active{
+    color: red;
+}
+
+h1,p{
+    text-align: justify;
+}
+
+ul ,li{
+    list-style-type: square;
+}
+
+li:nth-child(3){
+    color: red
+}
+
+li::marker{
+    color: white;
+}
+
